@@ -4,7 +4,7 @@
 __all__ = ['plt', 'learn', 'art_styles', 'image', 'label', 'examples', 'interface', 'search_images', 'classify_art']
 
 # %% app_model_integration.ipynb 2
-from fastai.vision.learner import *
+from fastai.vision.all import *
 from fastcore.all import *
 from fastbook import *
 import gradio as gr
